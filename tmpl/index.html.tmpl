@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<head>
+  <title>example</title>
+</head>
+
+
+<html>
+<body bgcolor="#FFFFFF" text="#000000" link="#0000FF" vlink="#800080" alink="#FF0000">
+	<h2>Systems Comands</h2>	
+
+	<form action="example.pl" method="post">
+	<table>
+	
+	
+	<tr>
+		<th align="left">Tipo de test:</th>
+		<td>
+                	<input type="radio" name="command" value="ping">ping<br>
+                	<input type="radio" name="command" value="traceroute">traceroute<br>
+                	<input type="radio" name="command" value="snmpwalk">snmpwalk<br>
+		</td>
+	</tr>
+
+	<tr>
+		<th align="left">parametro:</th>
+		<td>
+			<input type="Text" name="parameter" value="10.1.0.1" maxlength="50" size="50">
+		</td>
+	</tr>
+
+	<tr>
+		<td><br><input type="submit" name="index_form"  value="enviar"></td>
+	</tr>
+	</table>
+	
+	</form>
+
+</body>
+</html>
+
+

@@ -1,0 +1,386 @@
+1446328123index_form-> command : ping 
+
+1446328123=>proccess_command = ping
+
+1446328254index_form-> command : ping 
+
+1446328254=>proccess_command = ping
+
+1446328434index_form-> command : ping 
+
+1446328434=>proccess_command = ping
+
+1446329483index_form-> command : ping 
+
+1446329483=>proccess_command = ping
+
+1446329577index_form-> command : ping 10.1.0.1
+
+1446329592=>proccess_command = ping
+
+1446329644index_form-> command : ping 172.20.244.10
+
+1446329660=>proccess_command = ping
+
+1446329742index_form-> command : ping 172.20.244.1
+
+1446329747=>proccess_command = ping
+
+1446329754index_form-> command : ping 172.20.244.1
+
+1446329759=>proccess_command = ping -c 6 172.20.244.1 
+ PING 172.20.244.1 (172.20.244.1) 56(84) bytes of data.
+64 bytes from 172.20.244.1: icmp_seq=1 ttl=255 time=0.609 ms
+64 bytes from 172.20.244.1: icmp_seq=2 ttl=255 time=0.352 ms
+64 bytes from 172.20.244.1: icmp_seq=3 ttl=255 time=0.374 ms
+64 bytes from 172.20.244.1: icmp_seq=4 ttl=255 time=0.377 ms
+64 bytes from 172.20.244.1: icmp_seq=5 ttl=255 time=0.320 ms
+64 bytes from 172.20.244.1: icmp_seq=6 ttl=255 time=0.667 ms
+
+--- 172.20.244.1 ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5000ms
+rtt min/avg/max/mdev = 0.320/0.449/0.667/0.138 ms
+
+
+1446329775index_form-> command : snmpwalk 172.20.244.1
+
+1446329775=>proccess_command = snmpwalk --help 172.20.244.1 
+ 
+
+1446329852index_form-> command : traceroute 216.244.192.2
+
+1446329853=>proccess_command = traceroute -nI 216.244.192.2 
+ 
+
+1446329890index_form-> command : traceroute 216.244.192.2
+
+1446329890=>proccess_command = traceroute -nI 216.244.192.2 
+ 
+
+1446329957index_form-> command : ping 216.244.192.2
+
+1446329962=>proccess_command = ping -c 6 216.244.192.2 
+ PING 216.244.192.2 (216.244.192.2) 56(84) bytes of data.
+64 bytes from 216.244.192.2: icmp_seq=1 ttl=56 time=2.64 ms
+64 bytes from 216.244.192.2: icmp_seq=2 ttl=56 time=2.67 ms
+64 bytes from 216.244.192.2: icmp_seq=3 ttl=56 time=2.84 ms
+64 bytes from 216.244.192.2: icmp_seq=4 ttl=56 time=4.76 ms
+64 bytes from 216.244.192.2: icmp_seq=5 ttl=56 time=3.26 ms
+64 bytes from 216.244.192.2: icmp_seq=6 ttl=56 time=2.58 ms
+
+--- 216.244.192.2 ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5008ms
+rtt min/avg/max/mdev = 2.583/3.129/4.764/0.766 ms
+
+
+1446329967index_form-> command : traceroute 216.244.192.2
+
+1446329967=>proccess_command = traceroute -nI 216.244.192.2 
+ 
+
+1446329993index_form-> command : traceroute 216.244.192.2
+
+1446329993=>proccess_command = traceroute -nI 216.244.192.2 
+ 
+
+1446330045index_form-> command : traceroute 216.244.192.2
+
+1446330045=>proccess_command = traceroute -nI 216.244.192.2
+
+1446330045=>proccess_command = 
+
+1446330060index_form-> command : traceroute 216.244.192.1
+
+1446330060=>proccess_command = traceroute -nI 216.244.192.1
+
+1446330060=>proccess_command = 
+
+1446332478index_form-> command : traceroute 216.244.192.2
+
+1446332478=>proccess_command command: traceroute -nI 216.244.192.2
+
+1446332478=>proccess_command result: 
+
+1446377767index_form-> command : traceroute 216.244.192.2
+
+1446377767=>proccess_command command: traceroute -nI 216.244.192.2
+
+1446377767=>proccess_command result: 
+
+1446377771index_form-> command : snmpwalk 216.244.192.2
+
+1446377771=>proccess_command command: snmpwalk --help 216.244.192.2
+
+1446377771=>proccess_command result: 
+
+1446395302index_form-> command : traceroute 216.244.192.2
+
+1446395302=>proccess_command command: 
+
+1446395302=>proccess_command command: traceroute -n 216.244.192.2
+
+1446395302=>proccess_command result: traceroute to 216.244.192.2 (216.244.192.2), 30 hops max, 60 byte packets
+ 1  172.20.244.10  0.412 ms  0.404 ms  0.393 ms
+ 2  200.42.4.2  1.757 ms  1.983 ms  2.202 ms
+ 3  10.101.247.142  0.897 ms  0.883 ms  0.857 ms
+ 4  200.89.164.117  0.850 ms  0.842 ms  0.836 ms
+ 5  200.89.166.65  2.401 ms 200.89.160.73  3.233 ms 200.89.160.65  3.228 ms
+ 6  200.89.165.86  3.831 ms  3.496 ms  3.493 ms
+ 7  185.70.203.72  11.867 ms  11.399 ms  11.390 ms
+ 8  195.22.220.133  1.478 ms 195.22.220.89  1.460 ms 195.22.220.133  1.467 ms
+ 9  185.70.203.9  2.043 ms  1.788 ms  1.575 ms
+10  84.16.15.5  1.705 ms  1.947 ms  1.949 ms
+11  213.140.39.119  3.363 ms  2.445 ms  5.835 ms
+12  200.63.152.129  3.179 ms  3.550 ms  3.604 ms
+13  200.63.152.130  2.577 ms  2.595 ms  2.705 ms
+14  216.244.192.2  4.099 ms  4.080 ms  4.665 ms
+
+
+1446395322index_form-> command : snmpwalk 216.244.192.2
+
+1446395322=>proccess_command command: 
+
+1446395322=>proccess_command command: snmpwalk --help 
+
+1446395322=>proccess_command result: 
+
+1446396575index_form-> command : snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.1.1.0
+
+1446396575=>proccess_command command: 
+
+1446396575=>proccess_command command: snmpwalk --help 
+
+1446396575=>proccess_command result: 
+
+1446396585index_form-> command : snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.1.1.0
+
+1446396585=>proccess_command command: 
+
+1446396585=>proccess_command command: snmpwalk --help 
+
+1446396585=>proccess_command result: 
+
+1446396630index_form-> command : snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.1.1.0
+
+1446396630=>proccess_command command: 
+
+1446396630=>proccess_command command: snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.1.1.0 
+
+1446396630=>proccess_command result: iso.3.6.1.2.1.1.1.0 = STRING: "<<HW_REV: P3; VENDOR: Motorola Corporation; BOOTR: 1170; SW_REV: 3.0.33 HH-SH; MODEL: DCX-3200>>"
+
+
+1446396651index_form-> command : snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.1.1.0
+
+1446396651=>proccess_command command: 
+
+1446396651=>proccess_command command: snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.1.1.0 
+
+1446396651=>proccess_command result: iso.3.6.1.2.1.1.1.0 = STRING: "<<HW_REV: P3; VENDOR: Motorola Corporation; BOOTR: 1170; SW_REV: 3.0.33 HH-SH; MODEL: DCX-3200>>"
+
+
+1446396667index_form-> command : snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.1.3.0
+
+1446396667=>proccess_command command: 
+
+1446396668=>proccess_command command: snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.1.3.0 
+
+1446396668=>proccess_command result: iso.3.6.1.2.1.1.3.0 = Timeticks: (102767800) 11 days, 21:27:58.00
+
+
+1446396761index_form-> command : snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.4
+
+1446396761=>proccess_command command: 
+
+1446396764=>proccess_command command: snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.4 
+
+1446396764=>proccess_command result: iso.3.6.1.2.1.4.1.0 = INTEGER: 2
+iso.3.6.1.2.1.4.2.0 = INTEGER: 64
+iso.3.6.1.2.1.4.3.0 = Counter32: 254060559
+iso.3.6.1.2.1.4.4.0 = Counter32: 0
+iso.3.6.1.2.1.4.5.0 = Counter32: 0
+iso.3.6.1.2.1.4.6.0 = Counter32: 0
+iso.3.6.1.2.1.4.7.0 = Counter32: 16445
+iso.3.6.1.2.1.4.8.0 = Counter32: 252092087
+iso.3.6.1.2.1.4.9.0 = Counter32: 1968501
+iso.3.6.1.2.1.4.10.0 = Counter32: 3067947
+iso.3.6.1.2.1.4.11.0 = Counter32: 0
+iso.3.6.1.2.1.4.12.0 = Counter32: 0
+iso.3.6.1.2.1.4.13.0 = INTEGER: 0
+iso.3.6.1.2.1.4.14.0 = Counter32: 0
+iso.3.6.1.2.1.4.15.0 = Counter32: 0
+iso.3.6.1.2.1.4.16.0 = Counter32: 0
+iso.3.6.1.2.1.4.17.0 = Counter32: 0
+iso.3.6.1.2.1.4.18.0 = Counter32: 0
+iso.3.6.1.2.1.4.19.0 = Counter32: 0
+iso.3.6.1.2.1.4.20.1.1.10.254.1.34 = IpAddress: 10.254.1.34
+iso.3.6.1.2.1.4.20.1.1.127.0.0.1 = IpAddress: 127.0.0.1
+iso.3.6.1.2.1.4.20.1.1.192.168.17.1 = IpAddress: 192.168.17.1
+iso.3.6.1.2.1.4.20.1.1.192.168.100.1 = IpAddress: 192.168.100.1
+iso.3.6.1.2.1.4.20.1.1.192.168.117.11 = IpAddress: 192.168.117.11
+iso.3.6.1.2.1.4.20.1.2.10.254.1.34 = INTEGER: 2
+iso.3.6.1.2.1.4.20.1.2.127.0.0.1 = INTEGER: 5
+iso.3.6.1.2.1.4.20.1.2.192.168.17.1 = INTEGER: 2
+iso.3.6.1.2.1.4.20.1.2.192.168.100.1 = INTEGER: 1
+iso.3.6.1.2.1.4.20.1.2.192.168.117.11 = INTEGER: 2
+iso.3.6.1.2.1.4.20.1.3.10.254.1.34 = IpAddress: 255.255.255.128
+iso.3.6.1.2.1.4.20.1.3.127.0.0.1 = IpAddress: 255.0.0.0
+iso.3.6.1.2.1.4.20.1.3.192.168.17.1 = IpAddress: 255.255.255.0
+iso.3.6.1.2.1.4.20.1.3.192.168.100.1 = IpAddress: 255.255.255.0
+iso.3.6.1.2.1.4.20.1.3.192.168.117.11 = IpAddress: 255.255.255.240
+iso.3.6.1.2.1.4.20.1.4.10.254.1.34 = INTEGER: 1
+iso.3.6.1.2.1.4.20.1.4.127.0.0.1 = INTEGER: 1
+iso.3.6.1.2.1.4.20.1.4.192.168.17.1 = INTEGER: 1
+iso.3.6.1.2.1.4.20.1.4.192.168.100.1 = INTEGER: 1
+iso.3.6.1.2.1.4.20.1.4.192.168.117.11 = INTEGER: 1
+iso.3.6.1.2.1.4.20.1.5.10.254.1.34 = INTEGER: 65535
+iso.3.6.1.2.1.4.20.1.5.127.0.0.1 = INTEGER: 65535
+iso.3.6.1.2.1.4.20.1.5.192.168.17.1 = INTEGER: 65535
+iso.3.6.1.2.1.4.20.1.5.192.168.100.1 = INTEGER: 65535
+iso.3.6.1.2.1.4.20.1.5.192.168.117.11 = INTEGER: 65535
+iso.3.6.1.2.1.4.22.1.1.2.10.254.1.1 = INTEGER: 2
+iso.3.6.1.2.1.4.22.1.1.17.200.42.159.3 = INTEGER: 17
+iso.3.6.1.2.1.4.22.1.2.2.10.254.1.1 = Hex-STRING: 00 00 00 00 00 41 
+iso.3.6.1.2.1.4.22.1.2.17.200.42.159.3 = Hex-STRING: F8 0B BE 95 94 F1 
+iso.3.6.1.2.1.4.22.1.3.2.10.254.1.1 = IpAddress: 10.254.1.1
+iso.3.6.1.2.1.4.22.1.3.17.200.42.159.3 = IpAddress: 200.42.159.3
+iso.3.6.1.2.1.4.22.1.4.2.10.254.1.1 = INTEGER: 3
+iso.3.6.1.2.1.4.22.1.4.17.200.42.159.3 = INTEGER: 4
+iso.3.6.1.2.1.4.23.0 = Counter32: 0
+iso.3.6.1.2.1.4.25.0 = INTEGER: 2
+iso.3.6.1.2.1.4.26.0 = INTEGER: 64
+iso.3.6.1.2.1.4.27.0 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.4.28.1.2.1 = INTEGER: 65535
+iso.3.6.1.2.1.4.28.1.2.2 = INTEGER: 65535
+iso.3.6.1.2.1.4.28.1.2.5 = INTEGER: 65535
+iso.3.6.1.2.1.4.28.1.3.1 = INTEGER: 1
+iso.3.6.1.2.1.4.28.1.3.2 = INTEGER: 1
+iso.3.6.1.2.1.4.28.1.3.5 = INTEGER: 1
+iso.3.6.1.2.1.4.28.1.4.1 = Gauge32: 1000
+iso.3.6.1.2.1.4.28.1.4.2 = Gauge32: 1000
+iso.3.6.1.2.1.4.28.1.4.5 = Gauge32: 1000
+iso.3.6.1.2.1.4.29.0 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.4.30.1.2.1 = Gauge32: 65535
+iso.3.6.1.2.1.4.30.1.2.2 = Gauge32: 65535
+iso.3.6.1.2.1.4.30.1.2.5 = Gauge32: 65535
+iso.3.6.1.2.1.4.30.1.3.1 = Hex-STRING: 00 20 40 FF FE DE AD 02 
+iso.3.6.1.2.1.4.30.1.3.2 = Hex-STRING: F8 0B BE FF FE AC 81 76 
+iso.3.6.1.2.1.4.30.1.3.5 = ""
+iso.3.6.1.2.1.4.30.1.5.1 = INTEGER: 1
+iso.3.6.1.2.1.4.30.1.5.2 = INTEGER: 1
+iso.3.6.1.2.1.4.30.1.5.5 = INTEGER: 1
+iso.3.6.1.2.1.4.30.1.6.1 = Gauge32: 0
+iso.3.6.1.2.1.4.30.1.6.2 = Gauge32: 0
+iso.3.6.1.2.1.4.30.1.6.5 = Gauge32: 0
+iso.3.6.1.2.1.4.30.1.7.1 = Gauge32: 1000
+iso.3.6.1.2.1.4.30.1.7.2 = Gauge32: 1000
+iso.3.6.1.2.1.4.30.1.7.5 = Gauge32: 1000
+iso.3.6.1.2.1.4.30.1.8.1 = INTEGER: 2
+iso.3.6.1.2.1.4.30.1.8.2 = INTEGER: 2
+iso.3.6.1.2.1.4.30.1.8.5 = INTEGER: 2
+iso.3.6.1.2.1.4.33.0 = INTEGER: 1281673621
+iso.3.6.1.2.1.4.34.1.3.1.4.10.254.1.34 = INTEGER: 2
+iso.3.6.1.2.1.4.34.1.3.1.4.127.0.0.1 = INTEGER: 5
+iso.3.6.1.2.1.4.34.1.3.1.4.192.168.17.1 = INTEGER: 2
+iso.3.6.1.2.1.4.34.1.3.1.4.192.168.100.1 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.3.1.4.192.168.117.11 = INTEGER: 2
+iso.3.6.1.2.1.4.34.1.4.1.4.10.254.1.34 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.4.1.4.127.0.0.1 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.4.1.4.192.168.17.1 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.4.1.4.192.168.100.1 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.4.1.4.192.168.117.11 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.5.1.4.10.254.1.34 = OID: ccitt.0
+iso.3.6.1.2.1.4.34.1.5.1.4.127.0.0.1 = OID: ccitt.0
+iso.3.6.1.2.1.4.34.1.5.1.4.192.168.17.1 = OID: ccitt.0
+iso.3.6.1.2.1.4.34.1.5.1.4.192.168.100.1 = OID: ccitt.0
+iso.3.6.1.2.1.4.34.1.5.1.4.192.168.117.11 = OID: ccitt.0
+iso.3.6.1.2.1.4.34.1.6.1.4.10.254.1.34 = INTEGER: 4
+iso.3.6.1.2.1.4.34.1.6.1.4.127.0.0.1 = INTEGER: 2
+iso.3.6.1.2.1.4.34.1.6.1.4.192.168.17.1 = INTEGER: 2
+iso.3.6.1.2.1.4.34.1.6.1.4.192.168.100.1 = INTEGER: 2
+iso.3.6.1.2.1.4.34.1.6.1.4.192.168.117.11 = INTEGER: 2
+iso.3.6.1.2.1.4.34.1.7.1.4.10.254.1.34 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.7.1.4.127.0.0.1 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.7.1.4.192.168.17.1 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.7.1.4.192.168.100.1 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.7.1.4.192.168.117.11 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.8.1.4.10.254.1.34 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.4.34.1.8.1.4.127.0.0.1 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.4.34.1.8.1.4.192.168.17.1 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.4.34.1.8.1.4.192.168.100.1 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.4.34.1.8.1.4.192.168.117.11 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.4.34.1.9.1.4.10.254.1.34 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.4.34.1.9.1.4.127.0.0.1 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.4.34.1.9.1.4.192.168.17.1 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.4.34.1.9.1.4.192.168.100.1 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.4.34.1.9.1.4.192.168.117.11 = Timeticks: (0) 0:00:00.00
+iso.3.6.1.2.1.4.34.1.10.1.4.10.254.1.34 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.10.1.4.127.0.0.1 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.10.1.4.192.168.17.1 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.10.1.4.192.168.100.1 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.10.1.4.192.168.117.11 = INTEGER: 1
+iso.3.6.1.2.1.4.34.1.11.1.4.10.254.1.34 = INTEGER: 2
+iso.3.6.1.2.1.4.34.1.11.1.4.127.0.0.1 = INTEGER: 3
+iso.3.6.1.2.1.4.34.1.11.1.4.192.168.17.1 = INTEGER: 3
+iso.3.6.1.2.1.4.34.1.11.1.4.192.168.100.1 = INTEGER: 3
+iso.3.6.1.2.1.4.34.1.11.1.4.192.168.117.11 = INTEGER: 3
+iso.3.6.1.2.1.4.35.1.4.2.1.4.10.254.1.1 = Hex-STRING: 00 00 00 00 00 41 
+iso.3.6.1.2.1.4.35.1.4.17.1.4.200.42.159.3 = Hex-STRING: F8 0B BE 95 94 F1 
+iso.3.6.1.2.1.4.35.1.5.2.1.4.10.254.1.1 = Timeticks: (51826300) 5 days, 23:57:43.00
+iso.3.6.1.2.1.4.35.1.5.17.1.4.200.42.159.3 = Timeticks: (86604900) 10 days, 0:34:09.00
+iso.3.6.1.2.1.4.35.1.6.2.1.4.10.254.1.1 = INTEGER: 3
+iso.3.6.1.2.1.4.35.1.6.17.1.4.200.42.159.3 = INTEGER: 4
+iso.3.6.1.2.1.4.35.1.7.2.1.4.10.254.1.1 = INTEGER: 6
+iso.3.6.1.2.1.4.35.1.7.17.1.4.200.42.159.3 = INTEGER: 6
+iso.3.6.1.2.1.4.35.1.8.2.1.4.10.254.1.1 = INTEGER: 1
+iso.3.6.1.2.1.4.35.1.8.17.1.4.200.42.159.3 = INTEGER: 1
+
+
+1446396787index_form-> command : snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.4.20.1.1.0
+
+1446396787=>proccess_command command: 
+
+1446396787=>proccess_command command: snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.4.20.1.1.0 
+
+1446396787=>proccess_command result: 
+
+1446396795index_form-> command : snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.4.20.1.1.0
+
+1446396795=>proccess_command command: 
+
+1446396795=>proccess_command command: snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.4.20.1.1.0 
+
+1446396795=>proccess_command result: 
+
+1446396818index_form-> command : snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.4.20.1.1.0
+
+1446396818=>proccess_command command: 
+
+1446396818=>proccess_command command: snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.4.20.1.1.0 
+
+1446396818=>proccess_command result: 
+
+1446396842index_form-> command : snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.10.127.1.1.3
+
+1446396842=>proccess_command command: 
+
+1446396842=>proccess_command command: snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.10.127.1.1.3 
+
+1446396842=>proccess_command result: 
+
+1446396853index_form-> command : snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.10.127.1.1.3
+
+1446396853=>proccess_command command: 
+
+1446396853=>proccess_command command: snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.10.127.1.1.3 
+
+1446396853=>proccess_command result: 
+
+1446396889index_form-> command : snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.69.1.3.2.0
+
+1446396889=>proccess_command command: 
+
+1446396889=>proccess_command command: snmpwalk -v1 -c public 10.254.1.34 1.3.6.1.2.1.69.1.3.2.0 
+
+1446396889=>proccess_command result: iso.3.6.1.2.1.69.1.3.2.0 = STRING: "SVG6X82-8.6.1.0-GA-02-092-LTSH-NNDMN.p7"
+
+
